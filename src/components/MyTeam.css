@@ -1,0 +1,122 @@
+
+.myteam-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1a1a;
+}
+
+
+.myteam-container h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.myteam-container h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.25rem;
+}
+
+.myteam-container h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px dashed #e0e0e0;
+  padding-bottom: 0.25rem;
+}
+
+
+.myteam-container select {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.myteam-container select:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.2);
+}
+
+
+.myteam-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.myteam-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.65rem 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #f4f6f8;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  transition: background 0.2s ease-in-out;
+}
+
+.myteam-container li:hover {
+  background-color: #e8f0fe;
+}
+
+
+.myteam-container li span.font-bold {
+  font-weight: 600;
+  color: #333;
+}
+
+
+.myteam-container li span:last-child {
+  font-weight: 400;
+  color: #555;
+}
+
+
+.myteam-container li span.font-bold::after {
+  content: "";
+}
+
+.myteam-container h4 + ul li {
+  background-color: #fafafa;
+  border-color: #ddd;
+}
+
+.avatar-image {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 600px) {
+  .myteam-container {
+    padding: 1rem;
+  }
+
+  .myteam-container li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .myteam-container li span:last-child {
+    margin-top: 0.25rem;
+  }
+}

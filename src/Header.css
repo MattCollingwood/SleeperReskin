@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  border-bottom: 2px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.top-tier {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.second-tier {
+  display: flex;
+  padding: 0.5rem 2rem;
+  background: #f9fafb;
+  overflow-x: auto;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.tab-button:hover {
+  color: #1f2937;
+}
+
+.tab-button.active {
+  border-bottom: 2px solid #6366f1; /* purple underline for active */
+  font-weight: 600;
+  color: #111827;
+}

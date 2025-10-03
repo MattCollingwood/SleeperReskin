@@ -1,0 +1,83 @@
+.weekly-write-ups {
+  font-family: Arial, sans-serif;
+
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  width: 95%;
+  background: #f9f9f9;
+  margin: 10px auto;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #007acc;
+}
+
+details[open] {
+  background: #eef6ff;
+}
+
+details p {
+  margin: 8px 0 0;
+}
+
+h4 {
+    margin: 20px 0 1px 0;
+}
+
+ol, ul {
+    margin: 10px 0 20px 20px;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.chart {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.chart img {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    vertical-align: center;
+}
+
+.chart img:hover {
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    transform: scale(1.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+
+sup {
+    font-size: 0.6em;
+    vertical-align: super;
+}
+
+.matchup-box-position {
+    display: flex;
+    justify-content: center;
+}
+
+.matchup-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+    margin-bottom: 10px;
+
+}
